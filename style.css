@@ -1,0 +1,54 @@
+body {   
+  font-family: Bungee, cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(39, 39, 39);  
+  color: gold;  
+}
+.game-place {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+h1 {  
+  font-size: 5rem;
+  margin: 0;
+}
+
+p {  
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+a {
+  color: gold;
+  font-family: Sacramento, sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow:
+    0 0 7px #ffe553,
+    0 0 10px #ffe553,
+    0 0 21px #ffe553;
+}
+
+.btn {
+  background-color: #9c060c;
+  color: #faf1d8;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;    
+}
+ .btn:hover {
+  background-color: #c0080e;
+ }
+
+ h2 {
+  opacity: 0;
+ }
